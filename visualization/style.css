@@ -1,0 +1,73 @@
+body { 
+    font: 14px helvetica neue, helvetica, arial, sans-serif;
+}
+
+#root {
+    font-family: helvetica neue, helvetica, sans-serif;
+    text-overflow: ellipsis;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    overflow: hidden;
+    background: var(--bodyBgColor);
+}
+
+.app {
+    font-family: helvetica neue, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background: var(--bodyBgColor); */
+    overflow: hidden;
+}
+
+#cy {
+    height: 100%;
+    width: 100%;
+    /* margin: 0 auto; */
+    /* position: absolute;
+    z-index: 15;
+    top: 50%;
+    left: 50%; */
+   
+}
+
+#input-box {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+table,
+th {
+    padding:6px;
+}
+td {
+    border: 1px solid rgb(38, 80, 143);
+    color:rgb(8, 36, 78);
+    padding: 4px;
+}
+
+thead,
+tfoot {
+    background-color: rgb(38, 80, 143);
+    color: #fff;
+}
+
+#card {
+    height: 40%;
+    width: 25%;
+    position: absolute;
+    top: 1.5%;
+    left: 0.7%;
+    /* box-shadow: 0 0 0.2em rgb(147, 152, 165); */
+    /* background-color: rgb(72, 144, 185); */
+    /* padding: 1em; */
+    /* border-radius: 0.4em; */
+    /* margin: 0.3em; */
+    /* font-size: 1.2ems; */
+    font-size: 2.8vmin;
+    /* font-size:calc(60% + 1.2vw); */
+    /* color: rgb(222, 234, 245); */
+}
