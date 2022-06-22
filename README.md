@@ -50,6 +50,7 @@ Below is the formulation of **input-oriented CRS DEA model**:
 * Let $v_{i}$ be the weight for the $i^{th}$ input resource,$\quad i \in I$
 * Let $u_{j}$ be the weight for the $j^{th}$ production output,$\quad j \in O$
 
+
 $$\begin{align*}
 \max \quad		 & \sum_{j \in J}u_{j} Y_{jk} \\
 \text{s.t.} \quad & \sum_{i \in I}v_{i} X_{ik} = 1 \\
@@ -57,6 +58,7 @@ $$\begin{align*}
                  & v_{i} \geq \epsilon, \quad \forall i \in I \\
                  & u_{j} \geq \epsilon, \quad \forall j \in J
 \end{align*}$$
+
 
 Below is the formulation of **input-oriented VRS DEA model**:
 
@@ -69,13 +71,15 @@ Below is the formulation of **input-oriented VRS DEA model**:
 * Let $u_{j}$ be the weight for the $j^{th}$ production output,$\quad j \in O$
 * Let $u_{0}$ be the x-axis intercept that allow the frontier may not pass throught the original point
 
-\begin{align*}
+
+$$\begin{align*}
 \max \quad		 & \sum_{j \in J}u_{j} Y_{jk} - u_0 \\
 \text{s.t.} \quad & \sum_{i \in I}v_{i} X_{ik} = 1 \\
                  & \sum_{j \in J}u_{j} Y_{jn} - \sum_{i \in I}v_{i} X_{in} - u_0 \leq 0, \quad \forall n \in K \\
                  & v_{i} \geq \epsilon, \quad \forall i \in I \\
                  & u_{j} \geq \epsilon, \quad \forall j \in J
-\end{align*}
+\end{align*}$$
+
 
 ## 4 Data Collection & Analysis
 ### 4.1 Data Collection
