@@ -31,9 +31,10 @@ Below is the formulation of **Cobb-Douglas Production Function**:
 * Let K be the second input resource
 * Let $\alpha$ and $\beta$ be the output elasticities of L and K, respectively
 
-<p align="center">
+<img src="https://render.githubusercontent.com/render/math?math=Y = AL^{\alpha}K^{\beta}">
+<!-- <p align="center">
 $Y = AL^{\alpha}K^{\beta}$
-</p>
+</p> -->
 
 As for DEA, we apply two different models, which are input-oriented CRS DEA model and input-oriented VRS DEA model. With these two models, we can calculate the overall efficiency, technical efficiency and scale efficiency of each institute.
 
@@ -105,8 +106,8 @@ Below are the results of the DEA model, which are the overall efficiency, techni
 
 >>>>>>> 2cd0ceea1b356622e538cda233243c816b763b60
 ## 5 Results & Conclusion
-In Fig.XXX, institutions are classified into four quadrants. Institutions in quadrant one have both nice overall efficiency and technical efficiency. Especially The University of Queensland, Friedrich Schiller University Jena, and University of Seville, their overall efficiency is equal to one. For institutions lie in quadrant two, they have low technical efficiency but high scale efficiency, so they should focus on technology improvement. As for the institutions belong to quadrant three, they have both low technical efficiency and scale efficiency, so their technology and inputs scale should both be improved. At last, the institutions in quadrant four have high technical efficicency but low scale efficiency, they should first focus on adjusting their inputs scale to attain the most productivitive scale size.
-<!-- 放p20圖片 -->
+![image](https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%203.jpg)
+In the above figure, institutions are classified into four quadrants. Institutions in quadrant one have both nice overall efficiency and technical efficiency. Especially The University of Queensland, Friedrich Schiller University Jena, and University of Seville, their overall efficiency is equal to one. For institutions lie in quadrant two, they have low technical efficiency but high scale efficiency, so they should focus on technology improvement. As for the institutions belong to quadrant three, they have both low technical efficiency and scale efficiency, so their technology and inputs scale should both be improved. At last, the institutions in quadrant four have high technical efficicency but low scale efficiency, they should first focus on adjusting their inputs scale to attain the most productivitive scale size.
 
 Our school, National Taiwan University, has overall efficiency equals to 0.13, technical efficicency equals to 0.21, and scale efficiency equals to 0.62. It has low technical efficicency but high scale efficiency, which is belongs to quadrant two, so it should focus on improving technology first.
 
