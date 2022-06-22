@@ -72,3 +72,7 @@ Our school, National Taiwan University, has overall efficiency equals to 0.13, t
 
 
 # 6. Reference
+
+https://js.cytoscape.org/
+
+https://networkx.org/documentation/stable/reference/algorithms/structuralholes.html
