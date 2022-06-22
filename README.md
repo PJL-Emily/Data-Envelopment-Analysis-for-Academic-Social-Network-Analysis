@@ -1,11 +1,12 @@
-# 1 Abstract
+# README
+## 1 Abstract
 Relationship between academic collaboration and research output has been topic of many research. 
 Past studies regarded it as a regression problem and proved the positive correlation. In the study, we view it as a production function problem. We took two measures of structural hole as input variables, weighted publication counts as the single output variable. 
 We applied both Data Envelopment Analysis (DEA) and Stochastic Frontier Analysis (SFA) to estimate the production function. Empirical numerical example of Operational Research field was included. 
 During the analysis, we represented the positive correlation as well as revealed more characteristics of the production function by breakdown overall efficiency into technical efficiency and scale efficiency. 
 Result of the empirical example suggest research institutes should develope more irreplaceable collaboration relationship to boost their researh achievement. 
 
-# 2 Motivation
+## 2 Motivation
 Extant literatures applied various regression method to estimate the relation between academic collaboration and research output. The former’s positive effect toward the latter has already been proven. (Chen et al., 2008; Cantner and Rake, 2014; Gonzalez-Brambila et al., 2015)  
 
 However, regression method requires strong assumption on statistical distribution of the function, which is a potential concern for us. Hence, we want to apply Data Envelopment Analysis (DEA) to avoid the risk. 
@@ -16,7 +17,7 @@ By applying data envelopment analysis on academic soial network, we provide mana
 * Applied data envelopment analysis on the scenario of research collaboration. This enables us to analyze efficiency without making strong assumption towards distribution of production function. 
 * Focus on specific field to justify the relationship between collaboration and research accomplishment. 
 
-# 3 Methodology
+## 3 Methodology
 We apply Stochastic Frontier Analysis (SFA) and Data Envelopment Analysis (DEA) in our study. As for SFA, we use Cobb-Douglas Production Function, which can handle multiple inputs in its generalized form and handle different scales of production.
 
 Below is the formulation of **Cobb-Douglas Production Function**:
@@ -70,8 +71,8 @@ Below is the formulation of **input-oriented VRS DEA model**:
                  & u_{j} \geq \epsilon, \quad \forall j \in J
 \end{align*}
 
-# 4 Data Collection & Analysis
-## 4.1 Data Collection
+## 4 Data Collection & Analysis
+### 4.1 Data Collection
 We take European Journal of Operational Research as our target publication to analysis the academic collaboration’s effect toward research output. We use crawler to collect papers basic information from Volumes 256 to 295, 120 issues in total. There are 4,786 rows and four columns in data, including paper title, author's name, author's affiliation and author sequence.
 
 Then, data are transform into network. First, we align the granularity of each affiliations into the university. Second, delete nodes with zero degree centrality, which means delete the universities which did not collaborate with others in our data. The network is visualized in the following link. https://network-visualization.vercel.app/
@@ -79,21 +80,16 @@ Then, data are transform into network. First, we align the granularity of each a
 
 After that, we can compute inputs and outputs for the production function. We pick two kinds of structural hole as our inputs: effective size and local constraint. As for outputs, we have publications number and weighted publications. Each paper counts for one in the calculation of publications number. While to calculate weighted publications, the weight of first author's institution may be twice the weight of the other authors', and sum of weights for all the authors of a same paper should equal to one.
 
-## 4.2 Analysis
+### 4.2 Analysis
 
-# 5 Results & Conclusion
+## 5 Results & Conclusion
 In Fig.XXX, institutions are classified into four quadrants. Institutions in quadrant one have both nice overall efficiency and technical efficiency. Especially The University of Queensland, Friedrich Schiller University Jena, and University of Seville, their overall efficiency is equal to one. For institutions lie in quadrant two, they have low technical efficiency but high scale efficiency, so they should focus on technology improvement. As for the institutions belong to quadrant three, they have both low technical efficiency and scale efficiency, so their technology and inputs scale should both be improved. At last, the institutions in quadrant four have high technical efficicency but low scale efficiency, they should first focus on adjusting their inputs scale to attain the most productivitive scale size.
 <!-- 放p20圖片 -->
 
 Our school, National Taiwan University, has overall efficiency equals to 0.13, technical efficicency equals to 0.21, and scale efficiency equals to 0.62. It has low technical efficicency but high scale efficiency, which is belongs to quadrant two, so it should focus on improving technology first.
 
 
-<<<<<<< HEAD
-# 6. Reference
+## 6. Reference
 
-https://js.cytoscape.org/
-
-https://networkx.org/documentation/stable/reference/algorithms/structuralholes.html
-=======
-# 6 Reference
->>>>>>> 9604aa40cc8947ac04b445bf7363143903c0c2f2
+* https://js.cytoscape.org/
+* https://networkx.org/documentation/stable/reference/algorithms/structuralholes.html
