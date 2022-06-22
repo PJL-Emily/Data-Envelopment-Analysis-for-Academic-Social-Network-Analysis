@@ -65,7 +65,10 @@ After that, we can compute inputs and outputs for the production function. We pi
 
 
 # 5. Results & Conclusion
-In Fig.XXX, institutions are classified into four quadrants. Institutions in quadrant one have both nice overall efficiency and technical efficiency. Especially The University of Queensland, Friedrich Schiller University Jena, and University of Seville, their overall efficiency is equal to one. For insttutions
+In Fig.XXX, institutions are classified into four quadrants. Institutions in quadrant one have both nice overall efficiency and technical efficiency. Especially The University of Queensland, Friedrich Schiller University Jena, and University of Seville, their overall efficiency is equal to one. For institutions lie in quadrant two, they have low technical efficiency but high scale efficiency, so they should focus on technology improvement. As for the institutions belong to quadrant three, they have both low technical efficiency and scale efficiency, so their technology and inputs scale should both be improved. At last, the institutions in quadrant four have high technical efficicency but low scale efficiency, they should first focus on adjusting their inputs scale to attain the most productivitive scale size.
 <!-- 放p20圖片 -->
+
+Our school, National Taiwan University, has overall efficiency equals to 0.13, technical efficicency equals to 0.21, and scale efficiency equals to 0.62. It has low technical efficicency but high scale efficiency, which is belongs to quadrant two, so it should focus on improving technology first.
+
 
 # 6. Reference
