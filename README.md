@@ -12,9 +12,9 @@ Below is the formulation of **Cobb-Douglas Production Function**:
 * Let K be the second input resource
 * Let $\alpha$ and $\beta$ be the output elasticities of L and K, respectively
 
-\begin{align*}
-Y = AL^{\alpha}K^{\beta}
-\end{align*}
+<p align="center">
+$Y = AL^{\alpha}K^{\beta}$
+</p>
 
 As for DEA, we apply two different models, which are input-oriented CRS DEA model and input-oriented VRS DEA model. With these two models, we can calculate the overall efficiency, technical efficiency and scale efficiency of each institute.
 
