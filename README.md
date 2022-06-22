@@ -113,6 +113,8 @@ Our school, National Taiwan University, has overall efficiency equals to 0.13, t
 
 ## 6. Reference
 
-* [Do research institutes benefit from their network positions in research collaboration networks with industries or/and universities? Chen et al., 2008] (https://sciencedirect.com/science/article/pii/S0166497217307836)
+* [Do research institutes benefit from their network positions in research collaboration networks with industries or/and universities? Chen et al., 2008](https://sciencedirect.com/science/article/pii/S0166497217307836)
+* [International research networks in pharmaceuticals: Structure and dynamics. Cantner and Rake, 2014](https://www.sciencedirect.com/science/article/abs/pii/S0048733313001959)
+* [The impact of network embeddedness on research output. Gonzalez-Brambila et al., 2015](https://www.sciencedirect.com/science/article/abs/pii/S0048733313001248)
 * https://js.cytoscape.org/
 * https://networkx.org/documentation/stable/reference/algorithms/structuralholes.html
