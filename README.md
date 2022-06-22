@@ -1,7 +1,7 @@
 # Data Envelopment Analysis for Academic Social Network Analysis
 ##### Authors: 劉品君、許芸嘉、盧冠均
 ## 1 Abstract
-Relationship between academic collaboration and research output has been topic of many research. 
+Relationship between academic collaboration and research output has been topic of many researches. 
 
 Past studies regarded it as a regression problem and proved the positive correlation. In the study, we view it as a production function problem. We took two measures of structural hole as input variables, weighted publication counts as the single output variable. 
 We applied both Data Envelopment Analysis (DEA) and Stochastic Frontier Analysis (SFA) to estimate the production function. Empirical numerical example of Operational Research field was included. 
@@ -31,7 +31,8 @@ Below is the formulation of **Cobb-Douglas Production Function**:
 * Let A be the total factor productivity
 * Let L be the first input resource
 * Let K be the second input resource
-* Let $\alpha$ and $\beta$ be the output elasticities of L and K, respectively
+* Let $\alpha$ be the output elasticities of L
+* Let $\beta$ be the output elasticities of K
 
 
 <p align="center">
