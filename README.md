@@ -50,13 +50,13 @@ Below is the formulation of **input-oriented CRS DEA model**:
 * Let $v_{i}$ be the weight for the $i^{th}$ input resource,$\quad i \in I$
 * Let $u_{j}$ be the weight for the $j^{th}$ production output,$\quad j \in O$
 
-\begin{align*}
+$$\begin{align*}
 \max \quad		 & \sum_{j \in J}u_{j} Y_{jk} \\
 \text{s.t.} \quad & \sum_{i \in I}v_{i} X_{ik} = 1 \\
                  & \sum_{j \in J}u_{j} Y_{jn} - \sum_{i \in I}v_{i} X_{in} \leq 0, \quad \forall n \in K \\
                  & v_{i} \geq \epsilon, \quad \forall i \in I \\
                  & u_{j} \geq \epsilon, \quad \forall j \in J
-\end{align*}
+\end{align*}$$
 
 Below is the formulation of **input-oriented VRS DEA model**:
 
