@@ -89,18 +89,18 @@ After that, we can compute inputs and outputs for the production function. We pi
 ### 4.2 Analysis
 Below are the scatter plots of the structure hole effective size, structure hole local constraint (input) and the weighted publication (output).
 
-<img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/scatter%201.jpg" width="300" /> <img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/scatter%202.jpg" width="300" /> <br>
+<img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/scatter%201.jpg" width="350" /> <img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/scatter%202.jpg" width="350" /> <br>
 
 Below are the results of the SFA model, which are the technical efficiency of each institute and the frontier. <br>
 
-<img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/sfa.jpg" width="300" /> <img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/sfa%20frontier.jpg" width="300" /> <br>
+<img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/sfa.jpg" width="350" /> <img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/sfa%20frontier.jpg" width="350" /> <br>
 
 Below are the results of the DEA model, which are the overall efficiency, technical efficiency, scale efficiency of each institute. <br>
 
-<img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%201.jpg" width="300" /> <img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%202.jpg" width="300" /> <img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%203.jpg" width="300" />
+<img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%201.jpg" width="350" /> <img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%202.jpg" width="350" /> <img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%203.jpg" width="350" />
 
 ## 5 Results & Conclusion
-<img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%20quadrant.png" width="300" />
+<img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%20quadrant.png" width="350" />
 
 In the above figure, institutions are classified into four quadrants. Institutions in quadrant one have both nice overall efficiency and technical efficiency. Especially The University of Queensland, Friedrich Schiller University Jena, and University of Seville, their overall efficiency is equal to one. For institutions lie in quadrant two, they have low technical efficiency but high scale efficiency, so they should focus on technology improvement. As for the institutions belong to quadrant three, they have both low technical efficiency and scale efficiency, so their technology and inputs scale should both be improved. At last, the institutions in quadrant four have high technical efficicency but low scale efficiency, they should first focus on adjusting their inputs scale to attain the most productivitive scale size.
 
