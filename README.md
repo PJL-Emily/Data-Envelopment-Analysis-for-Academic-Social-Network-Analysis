@@ -1,9 +1,16 @@
 # README
 ## 1 Abstract
 Relationship between academic collaboration and research output has been topic of many research. 
-Past studies regarded it as a regression problem and proved the positive correlation. In the study, we view it as a production function problem. We took two measures of structural hole as input variables, weighted publication counts as the single output variable. 
+
+Past studies regarded it as a regression problem and proved the positive correlation. 
+
+In the study, we view it as a production function problem. 
+We took two measures of structural hole as input variables, weighted publication counts as the single output variable. 
+
 We applied both Data Envelopment Analysis (DEA) and Stochastic Frontier Analysis (SFA) to estimate the production function. Empirical numerical example of Operational Research field was included. 
+
 During the analysis, we represented the positive correlation as well as revealed more characteristics of the production function by breakdown overall efficiency into technical efficiency and scale efficiency. 
+
 Result of the empirical example suggest research institutes should develope more irreplaceable collaboration relationship to boost their researh achievement. 
 
 ## 2 Motivation
