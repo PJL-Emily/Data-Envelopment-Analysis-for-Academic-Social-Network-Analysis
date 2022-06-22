@@ -1,18 +1,23 @@
-# README
+# Data Envelopment Analysis for Academic Social Network Analysis
+##### Authors: 劉品君、許芸嘉、盧冠均
 ## 1 Abstract
 Relationship between academic collaboration and research output has been topic of many research. 
+
 Past studies regarded it as a regression problem and proved the positive correlation. In the study, we view it as a production function problem. We took two measures of structural hole as input variables, weighted publication counts as the single output variable. 
 We applied both Data Envelopment Analysis (DEA) and Stochastic Frontier Analysis (SFA) to estimate the production function. Empirical numerical example of Operational Research field was included. 
+
 During the analysis, we represented the positive correlation as well as revealed more characteristics of the production function by breakdown overall efficiency into technical efficiency and scale efficiency. 
+
 Result of the empirical example suggest research institutes should develope more irreplaceable collaboration relationship to boost their researh achievement. 
 
 ## 2 Motivation
 Extant literatures applied various regression method to estimate the relation between academic collaboration and research output. The former’s positive effect toward the latter has already been proven. (Chen et al., 2008; Cantner and Rake, 2014; Gonzalez-Brambila et al., 2015)  
 
 However, regression method requires strong assumption on statistical distribution of the function, which is a potential concern for us. Hence, we want to apply Data Envelopment Analysis (DEA) to avoid the risk. 
+
 By applying data envelopment analysis on academic soial network, we provide managerial insights based on analysis results. 
 
-3 Contributions of this study:
+Three contributions of this study:
 * Constructed production function of research social network, which provides efficiency scores and managerial suggestion towards each institutes. 
 * Applied data envelopment analysis on the scenario of research collaboration. This enables us to analyze efficiency without making strong assumption towards distribution of production function. 
 * Focus on specific field to justify the relationship between collaboration and research accomplishment. 
@@ -28,10 +33,10 @@ Below is the formulation of **Cobb-Douglas Production Function**:
 * Let K be the second input resource
 * Let $\alpha$ and $\beta$ be the output elasticities of L and K, respectively
 
-<img src="https://render.githubusercontent.com/render/math?math=Y = AL^{\alpha}K^{\beta}">
-<!-- <p align="center">
+<!-- <img src="https://render.githubusercontent.com/render/math?math=Y = AL^{\alpha}K^{\beta}"> -->
+<p align="center">
 $Y = AL^{\alpha}K^{\beta}$
-</p> -->
+</p>
 
 As for DEA, we apply two different models, which are input-oriented CRS DEA model and input-oriented VRS DEA model. With these two models, we can calculate the overall efficiency, technical efficiency and scale efficiency of each institute.
 
@@ -95,7 +100,8 @@ Below are the results of the DEA model, which are the overall efficiency, techni
 <img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%201.jpg" width="300" /> <img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%202.jpg" width="300" /> <img src="https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%203.jpg" width="300" />
 
 ## 5 Results & Conclusion
-![image](https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%203.jpg)
+![image](https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea quadrant.jpg)
+
 In the above figure, institutions are classified into four quadrants. Institutions in quadrant one have both nice overall efficiency and technical efficiency. Especially The University of Queensland, Friedrich Schiller University Jena, and University of Seville, their overall efficiency is equal to one. For institutions lie in quadrant two, they have low technical efficiency but high scale efficiency, so they should focus on technology improvement. As for the institutions belong to quadrant three, they have both low technical efficiency and scale efficiency, so their technology and inputs scale should both be improved. At last, the institutions in quadrant four have high technical efficicency but low scale efficiency, they should first focus on adjusting their inputs scale to attain the most productivitive scale size.
 
 Our school, National Taiwan University, has overall efficiency equals to 0.13, technical efficicency equals to 0.21, and scale efficiency equals to 0.62. It has low technical efficicency but high scale efficiency, which is belongs to quadrant two, so it should focus on improving technology first.
