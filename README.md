@@ -8,7 +8,7 @@ We applied both Data Envelopment Analysis (DEA) and Stochastic Frontier Analysis
 
 During the analysis, we represented the positive correlation as well as revealed more characteristics of the production function by breakdown overall efficiency into technical efficiency and scale efficiency. 
 
-Result of the empirical example suggest research institutes should develope more irreplaceable collaboration relationship to boost their researh achievement. 
+Results of the empirical example suggest research institutes should develop more irreplaceable collaboration relationship to boost their researh achievement. 
 
 ## 2 Motivation
 Extant literatures applied various regression method to estimate the relation between academic collaboration and research output. The former’s positive effect toward the latter has already been proven. (Chen et al., 2008; Cantner and Rake, 2014; Gonzalez-Brambila et al., 2015)  
