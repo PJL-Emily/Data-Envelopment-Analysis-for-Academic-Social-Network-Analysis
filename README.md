@@ -1,7 +1,15 @@
 # 1. Abstract
+Relationship between academic collaboration and research output has been topic of many research. 
+Past studies regarded it as a regression problem and proved the positive correlation. In the study, we view it as a production function problem. We took two measures of structural hole as input variables, weighted publication counts as the single output variable. 
+We applied both Data Envelopment Analysis (DEA) and Stochastic Frontier Analysis (SFA) to estimate the production function. Empirical numerical example of Operational Research field was included. 
+During the analysis, we represented the positive correlation as well as revealed more characteristics of the production function by breakdown overall efficiency into technical efficiency and scale efficiency. 
+Result of the empirical example suggest research institutes should develope more irreplaceable collaboration relationship to boost their researh achievement. 
+
 # 2. Motivation
 Extant literatures applied various regression method to estimate the relation between academic collaboration and research output. The former’s positive effect toward the latter has already been proven. (Chen et al., 2008; Cantner and Rake, 2014; Gonzalez-Brambila et al., 2015)  
-However, regression method requires strong assumption on statistical distribution of the function, which is a potential concern for us. Hence, we want to apply Data Envelopment Analysis (DEA) to avoid the risk. By applying data envelopment analysis on academic soial network, we provide managerial insights based on analysis results. 
+
+However, regression method requires strong assumption on statistical distribution of the function, which is a potential concern for us. Hence, we want to apply Data Envelopment Analysis (DEA) to avoid the risk. 
+By applying data envelopment analysis on academic soial network, we provide managerial insights based on analysis results. 
 
 3 Contributions of this study:
 * Constructed production function of research social network, which provides efficiency scores and managerial suggestion towards each institutes. 
