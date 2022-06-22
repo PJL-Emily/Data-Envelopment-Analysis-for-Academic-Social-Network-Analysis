@@ -1,6 +1,13 @@
 # 1. Abstract
 # 2. Motivation
-   including literature review.
+Extant literatures applied various regression method to estimate the relation between academic collaboration and research output. The former’s positive effect toward the latter has already been proven. (Chen et al., 2008; Cantner and Rake, 2014; Gonzalez-Brambila et al., 2015)  
+However, regression method requires strong assumption on statistical distribution of the function, which is a potential concern for us. Hence, we want to apply Data Envelopment Analysis (DEA) to avoid the risk. By applying data envelopment analysis on academic soial network, we provide managerial insights based on analysis results. 
+
+3 Contributions of this study:
+* Constructed production function of research social network, which provides efficiency scores and managerial suggestion towards each institutes. 
+* Applied data envelopment analysis on the scenario of research collaboration. This enables us to analyze efficiency without making strong assumption towards distribution of production function. 
+* Focus on specific field to justify the relationship between collaboration and research accomplishment. 
+
 # 3. Methodology
 We apply Stochastic Frontier Analysis (SFA) and Data Envelopment Analysis (DEA) in our study. As for SFA, we use Cobb-Douglas Production Function, which can handle multiple inputs in its generalized form and handle different scales of production.
 
