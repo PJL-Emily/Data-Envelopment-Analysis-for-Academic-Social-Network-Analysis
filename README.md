@@ -84,7 +84,26 @@ Then, data are transform into network. First, we align the granularity of each a
 After that, we can compute inputs and outputs for the production function. We pick two kinds of structural hole as our inputs: effective size and local constraint. As for outputs, we have publications number and weighted publications. Each paper counts for one in the calculation of publications number. While to calculate weighted publications, the weight of first author's institution may be twice the weight of the other authors', and sum of weights for all the authors of a same paper should equal to one.
 
 ### 4.2 Analysis
+<<<<<<< HEAD
 
+=======
+Below are the scatter plots of the structure hole effective size, structure hole local constraint (input) and the weighted publication (output).
+
+![image](https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/scatter%201.jpg)
+![image](https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/scatter%202.jpg) <br>
+
+Below are the results of the SFA model, which are the technical efficiency of each institute and the frontier. <br>
+
+![image](https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/sfa.jpg)
+![image](https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/sfa%20frontier.jpg) <br>
+
+Below are the results of the DEA model, which are the overall efficiency, technical efficiency, scale efficiency of each institute. <br>
+
+![image](https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%201.jpg)
+![image](https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%202.jpg)
+![image](https://github.com/PJL-Emily/Data-Envelopment-Analysis-for-Academic-Social-Network-Analysis/blob/master/img/dea%203.jpg)
+
+>>>>>>> 2cd0ceea1b356622e538cda233243c816b763b60
 ## 5 Results & Conclusion
 In Fig.XXX, institutions are classified into four quadrants. Institutions in quadrant one have both nice overall efficiency and technical efficiency. Especially The University of Queensland, Friedrich Schiller University Jena, and University of Seville, their overall efficiency is equal to one. For institutions lie in quadrant two, they have low technical efficiency but high scale efficiency, so they should focus on technology improvement. As for the institutions belong to quadrant three, they have both low technical efficiency and scale efficiency, so their technology and inputs scale should both be improved. At last, the institutions in quadrant four have high technical efficicency but low scale efficiency, they should first focus on adjusting their inputs scale to attain the most productivitive scale size.
 <!-- 放p20圖片 -->
@@ -94,6 +113,5 @@ Our school, National Taiwan University, has overall efficiency equals to 0.13, t
 
 ## 6. Reference
 
-https://js.cytoscape.org/
-
-https://networkx.org/documentation/stable/reference/algorithms/structuralholes.html
+* https://js.cytoscape.org/
+* https://networkx.org/documentation/stable/reference/algorithms/structuralholes.html
